@@ -2,6 +2,7 @@ import React from 'react';
 import eldenring from '../Images/eldenringposter.png';
 import Button from '../Parts/Button';
 import Specialofferscontainer from '../Parts/Specialofferscontainer';
+import Threelistscontainer from '../Parts/Threelistscontainer'
 
 const Store = () => {
   return (
@@ -25,6 +26,9 @@ With its challenging combat, <br/> expansive world, and rich lore, Elden Ring is
       </div>
       <div className="specialoffers">
         <Specialofferscontainer/>
+      </div>
+      <div className="threelists">
+        <Threelistscontainer/>
       </div>
     </div>
   );

@@ -1,0 +1,93 @@
+[
+    {
+    "id": 268,
+    "title": "Eden Eternal",
+    "thumbnail": "https://www.freetogame.com/g/268/thumbnail.jpg",
+    "short_description": "A free to play fantasy MMORPG with cute anime-inspired graphics.",
+    "game_url": "https://www.freetogame.com/open/eden-eternal",
+    "genre": "MMORPG",
+    "platform": "PC (Windows)",
+    "publisher": "X-Legend Entertainment",
+    "developer": "X-Legend Entertainment",
+    "release_date": "2023-05-10",
+    "freetogame_profile_url": "https://www.freetogame.com/eden-eternal"
+    },
+    {
+    "id": 551,
+    "title": "Veiled Experts",
+    "thumbnail": "https://www.freetogame.com/g/551/thumbnail.jpg",
+    "short_description": "A free-to-play multiplayer shooter game focused on the search and destroy mode of classic shooters.",
+    "game_url": "https://www.freetogame.com/open/veiled-experts",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "Nexon Games Co., LTC",
+    "developer": "Nexon",
+    "release_date": "2023-05-18",
+    "freetogame_profile_url": "https://www.freetogame.com/veiled-experts"
+    },
+    {
+    "id": 552,
+    "title": "Jected - Rivals",
+    "thumbnail": "https://www.freetogame.com/g/552/thumbnail.jpg",
+    "short_description": "A free-to-play game mixing extreme sports with destructible vehicles and a unique ejection mechanic.",
+    "game_url": "https://www.freetogame.com/open/jected-rivals",
+    "genre": "Sports",
+    "platform": "PC (Windows)",
+    "publisher": "THQ Nordic",
+    "developer": "PowWow Entertainment",
+    "release_date": "2023-05-04",
+    "freetogame_profile_url": "https://www.freetogame.com/jected-rivals"
+    },
+    {
+    "id": 548,
+    "title": "Dead Cide Club",
+    "thumbnail": "https://www.freetogame.com/g/548/thumbnail.jpg",
+    "short_description": "A free-to-play, side-scrolling shooter with a variety of modes and character types to choose from.",
+    "game_url": "https://www.freetogame.com/open/dead-cide-club",
+    "genre": "Shooter",
+    "platform": "PC (Windows)",
+    "publisher": "PressA",
+    "developer": "PressZ",
+    "release_date": "2023-02-28",
+    "freetogame_profile_url": "https://www.freetogame.com/dead-cide-club"
+    },
+    {
+    "id": 546,
+    "title": "Kartrider: Drift",
+    "thumbnail": "https://www.freetogame.com/g/546/thumbnail.jpg",
+    "short_description": "A free-to-play multiplayer online racing game set in the Kartrider franchise.",
+    "game_url": "https://www.freetogame.com/open/kartrider-drift",
+    "genre": "Racing",
+    "platform": "PC (Windows)",
+    "publisher": "Nexon America Inc.",
+    "developer": "Nexon Korea Corporation",
+    "release_date": "2023-01-10",
+    "freetogame_profile_url": "https://www.freetogame.com/kartrider-drift"
+    },
+    {
+    "id": 547,
+    "title": "Warlander",
+    "thumbnail": "https://www.freetogame.com/g/547/thumbnail.jpg",
+    "short_description": "A medieval-style combat game with a selection of modes and characters.",
+    "game_url": "https://www.freetogame.com/open/warlander",
+    "genre": "MOBA",
+    "platform": "PC (Windows)",
+    "publisher": "Plaion",
+    "developer": "Toylogic Inc.",
+    "release_date": "2023-01-24",
+    "freetogame_profile_url": "https://www.freetogame.com/warlander"
+    },
+    {
+    "id": 545,
+    "title": "Fangs",
+    "thumbnail": "https://www.freetogame.com/g/545/thumbnail.jpg",
+    "short_description": "A 4v4 MOBA with hero-specific strategies.",
+    "game_url": "https://www.freetogame.com/open/fangs",
+    "genre": "MOBA",
+    "platform": "PC (Windows)",
+    "publisher": "Hidden Leaf Games",
+    "developer": "Hidden Leaf Games",
+    "release_date": "2022-11-30",
+    "freetogame_profile_url": "https://www.freetogame.com/fangs"
+    }
+]
