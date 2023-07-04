@@ -115,3 +115,8 @@ border-radius: 20px;
 .info {
   color: #73BBC9 !important;
 }
+
+.threelistscontainer {
+  display: flex;
+
+}

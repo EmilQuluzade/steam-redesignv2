@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Upcoming = () => {
+const Upcoming = ({thumbnail , title}) => {
   return (
-    <div>Upcoming</div>
+    <div className="upcoming">
+      <img src={thumbnail} alt="" />
+<h3>{title}</h3>
+    </div>
   )
 }
 
