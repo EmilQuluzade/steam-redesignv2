@@ -116,7 +116,30 @@ border-radius: 20px;
   color: #73BBC9 !important;
 }
 
+.thelists > img {
+  height: 100%;
+}
+
 .threelistscontainer {
   display: flex;
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
+
+.thelists {
+  width: 400px;
+  height: 80px;
+  background-color: #252b31;
+  display: flex;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.thelists h3 {
+  color: white;
+  font-size: 16px;
+}
+

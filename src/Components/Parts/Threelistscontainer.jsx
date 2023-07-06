@@ -34,7 +34,6 @@ const Threelistscontainer = () => {
   <Upcoming
   thumbnail={game.thumbnail}
   title={game.title}
-  prise={game.prise}
   />
 ))}
 </div>
