@@ -27,6 +27,27 @@ filter: blur(4px);
 filter: brightness(.8); 
 }
 
+.dropdown-content {
+  position: absolute;
+  background-color: #252b31;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+   margin-top: 10px;
+  margin-left: -750px; 
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #171a21;
+}
+
 .bannergame {
   display: flex;
   justify-content: center;
@@ -143,3 +164,33 @@ margin-bottom: 10px;
   font-size: 16px;
 }
 
+.footer {
+  background-color: #171a21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 80px;
+}
+
+.footer img {
+width: 200px;
+filter: invert(1);
+}
+
+.aboutsteam {
+  background-color: #171a21;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutsteam > img {
+  filter: invert(1) drop-shadow(0 0 5px #fff);;
+  max-width: 50%;
+  padding-top: 100px;
+}
+
+.aboutsteam > p {
+  color: white;
+}
