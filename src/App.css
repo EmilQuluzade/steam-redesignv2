@@ -194,3 +194,10 @@ filter: invert(1);
 .aboutsteam > p {
   color: white;
 }
+
+.privacy , .legal , .refunds {
+  background-color: #171a21;
+  color: white;
+  padding-top: 150px;
+  min-height: 100vh;
+} 

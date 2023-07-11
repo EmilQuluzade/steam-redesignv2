@@ -2,7 +2,9 @@ import { useState, useRef, useEffect } from 'react';
 import '../../App.css';
 import steamlogo from '../Images/Steamlogo.png';
 import Button from './Button';
-import { Link } from 'react-router-dom';
+import { Link , useHistory } from 'react-router-dom';
+import Privacy from '../Pages/Privacy';
+import Signup from '../Pages/Signup';
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -33,6 +35,10 @@ const Navbar = () => {
       clearTimeout(timeoutRef.current);
     };
   }, []);
+
+  const handleSignUpClick = () => {
+    window.location.href = '/signup';
+  };
 
   return (
     <div className="mynavbar">
@@ -82,9 +88,9 @@ const Navbar = () => {
                   onMouseEnter={handleContentMouseEnter}
                   onMouseLeave={handleContentMouseLeave}
                 >
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">LEGAL</a>
-                  <a href="#">REFUNDS</a>
+                  <Link to="/privacy">Privacy Policy</Link>
+                  <Link to="/legal">LEGAL</Link>
+                  <Link to="/refunds">REFUNDS</Link>
                 </div>
               </div>
             )}
@@ -101,7 +107,10 @@ const Navbar = () => {
                 Search
               </button>
             </form>
-            <Button btnname="Log In" />
+            <Link to="/signup">
+  <Button btnname="Sign up" onClick={handleSignUpClick} />
+</Link>
+
           </div>
         </div>
       </nav>
