@@ -201,3 +201,17 @@ filter: invert(1);
   padding-top: 150px;
   min-height: 100vh;
 } 
+
+.signup {
+  padding-top: 150px;
+  background-color: #171a21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100vh;
+}
+
+.forminput input {
+  padding: 15px;
+  margin: 10px 0;
+}

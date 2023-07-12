@@ -108,7 +108,7 @@ const Navbar = () => {
               </button>
             </form>
             <Link to="/signup">
-  <Button btnname="Sign up" onClick={handleSignUpClick} />
+  <Button btnname="Sign up"></Button>
 </Link>
 
           </div>

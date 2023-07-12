@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Routes  } from 'react-router-dom';
 import Privacy from './Components/Pages/Privacy';
 import Legal from './Components/Pages/Legal';
 import Refunds from './Components/Pages/Refunds';
-import Signup from './Components/Pages/Signup';
+import Signup from './Components/Pages/Signup.jsx';
 
 const App = () => {
 
@@ -24,7 +24,8 @@ const App = () => {
               <Route path='/privacy' element={<Privacy/>} />
               <Route path='/legal' element={<Legal/>} />
               <Route path='/refunds' element={<Refunds/>} />
-              <Route path="/signup" component={<Signup/>} />
+              <Route path="/signup" element={<Signup/>} />
+
             </Routes>
             <Footer />
           </BrowserRouter>
