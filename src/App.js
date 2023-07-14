@@ -10,6 +10,7 @@ import Privacy from './Components/Pages/Privacy';
 import Legal from './Components/Pages/Legal';
 import Refunds from './Components/Pages/Refunds';
 import Signup from './Components/Pages/Signup.jsx';
+import Categories from './Components/Pages/Categories';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
               <Route path='/legal' element={<Legal/>} />
               <Route path='/refunds' element={<Refunds/>} />
               <Route path="/signup" element={<Signup/>} />
+              <Route path="/categories" element={<Categories/>} />
 
             </Routes>
             <Footer />

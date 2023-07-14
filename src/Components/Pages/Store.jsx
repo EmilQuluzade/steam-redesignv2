@@ -1,5 +1,5 @@
 import React from 'react';
-import eldenring from '../Images/eldenringposter.png';
+import eldenring from '../Images/eldenringposter.jpg';
 import Button from '../Parts/Button';
 import Specialofferscontainer from '../Parts/Specialofferscontainer';
 import Threelistscontainer from '../Parts/Threelistscontainer'
@@ -20,9 +20,9 @@ With its challenging combat, <br/> expansive world, and rich lore, Elden Ring is
             <Button btnname='BUY NOW'/>
           </div>
         </div>
-        <div className="right">
+        {/* <div className="right">
           <img src={eldenring} className='bannergameposter' alt="" />
-        </div>
+        </div> */}
       </div>
       <div className="specialoffers">
         <Specialofferscontainer/>

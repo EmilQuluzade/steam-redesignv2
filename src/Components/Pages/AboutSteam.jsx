@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../Images/Steamlogo.png'
 
+
+
 const AboutSteam = () => {
   return (
     <div className="aboutsteam">
