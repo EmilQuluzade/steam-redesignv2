@@ -1,6 +1,7 @@
 import React from 'react'
 import Offers from './Offers'
 import specialoffers from '../Data/Specialoffers.json'
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Specialofferscontainer = () => {
   return (

@@ -11,10 +11,12 @@ const Store = () => {
       <div className="bannergame eldenringinfo">
         <div className="left">
           <div className="eldenring">
-            <div className="gamename text-white">ELDEN RING</div>
-          <div className="info"> Elden Ring is the latest action role-playing game from <br/> FromSoftware, the creators of Dark Souls and Bloodborne. In this <br/> vast and dangerous world, you must explore, battle, and conquer <br/> in order to become the Elden Lord.
-
-With its challenging combat, <br/> expansive world, and rich lore, Elden Ring is a must-play for fans of <br/> action RPGs. So what are you waiting for? Embark on your journey <br/> TODAY!</div>
+            <div className="gamename text-white">BATMAN: ARKHAM KNIGHT</div>
+          <div className="info">
+            <p>
+            Batman: Arkham Knight is the latest action-adventure game from Rocksteady Studios, the creators of the Batman: Arkham series. In this epic conclusion to the Arkham trilogy, you must become the Dark Knight and save Gotham City from Scarecrow and his army of Arkham Knight soldiers. With its stunning visuals, fluid combat, and gripping story, Batman: Arkham Knight is a must-play for fans of the Dark Knight.
+            </p>
+          </div>
           </div>
           <div className="buybtn">
             <Button btnname='BUY NOW'/>

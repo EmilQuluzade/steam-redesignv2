@@ -21,15 +21,6 @@ function Categories() {
 
   return (
     <div className="categories">
-       
-       <div className="title">
-         <h1>
-           Portfolio 
-           <span> Filter</span>
-         </h1>
-       </div>
-
-
       <Button button={buttons} filter={filter} />
        <Menu menuItem={menuItem}/>
 

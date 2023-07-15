@@ -1,7 +1,8 @@
-import { useState } from "react";
+import React, { useState, useRef } from "react";
 import FormInput from "../Parts/Forminput";
 
 const App = () => {
+  const modalRef = useRef(null);
   const [values, setValues] = useState({
     username: "",
     email: "",
@@ -56,17 +57,35 @@ const App = () => {
       placeholder: "Confirm Password",
       errorMessage: "Passwords don't match!",
       label: "Confirm Password",
-      pattern: values.password,
+      pattern: values.password ? `^${values.password}$` : undefined,
       required: true,
     },
   ];
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Save the information to local storage
+    localStorage.setItem("username", values.username);
+    localStorage.setItem("email", values.email);
+    localStorage.setItem("birthday", values.birthday);
+    localStorage.setItem("password", values.password);
+
+    // Clear the values from the form
+    setValues({
+      username: "",
+      email: "",
+      birthday: "",
+      password: "",
+      confirmPassword: "",
+    });
+
+    // Show the modal box
+    modalRef.current.style.display = "block";
   };
 
   return (
@@ -83,6 +102,17 @@ const App = () => {
         ))}
         <button>Submit</button>
       </form>
+      <div ref={modalRef} id="modal">
+        <h2>Success!</h2>
+        <p>Your data has been stored.</p>
+        <button
+          onClick={() => {
+            modalRef.current.style.display = "none";
+          }}
+        >
+          Close
+        </button>
+      </div>
     </div>
   );
 };
