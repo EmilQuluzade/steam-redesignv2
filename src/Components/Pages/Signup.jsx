@@ -67,15 +67,14 @@ const App = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+     e.preventDefault();
 
-    // Save the information to local storage
+    
     localStorage.setItem("username", values.username);
     localStorage.setItem("email", values.email);
     localStorage.setItem("birthday", values.birthday);
     localStorage.setItem("password", values.password);
 
-    // Clear the values from the form
     setValues({
       username: "",
       email: "",
@@ -83,8 +82,7 @@ const App = () => {
       password: "",
       confirmPassword: "",
     });
-
-    // Show the modal box
+    
     modalRef.current.style.display = "block";
   };
 
