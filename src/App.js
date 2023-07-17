@@ -17,7 +17,7 @@ import NotFound from './Components/Pages/NotFound';
 const App = () => {
   const [loading, setLoading] = useState(true);
 
-  // Simulate a loading delay for demonstration purposes
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {loading ? ( // Show the loader while loading is true
+      {loading ? ( 
         <div className="loader-container">
           <div className="loader">
             <div></div>

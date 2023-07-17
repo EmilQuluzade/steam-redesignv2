@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import valvelogo from '../Images/valvelogo.png';
 import { Link } from 'react-router-dom';
+import FooterParagraph from './FooterParagraph.json';
 
 const Footer = () => {
+  const [infoData, setInfoData] = useState(FooterParagraph);
+
   return (
     <div className="footerall">
       <div className="footer">
         <img src={valvelogo} alt="" />
-        <p className='text-white'>© 2023 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries. <br/>
-          VAT included in all prices where applicable.</p>
+        {infoData && <p>{infoData.info}</p>}
       </div>
       <div className="footerlinks">
         <Link className='links' to="/privacy">Privacy Policy</Link>
